@@ -16,11 +16,15 @@ config(function ($routeProvider, $locationProvider) {
     }).
     when('/faq', {
       templateUrl: 'partials/faq.html',
-      controller: 'FaqController'
+      controller: 'MainController'
     }).
     when('/quem_pode', {
       templateUrl: 'partials/quem_pode.html',
-      controller: 'FaqController'
+      controller: 'MainController'
+    }).
+    when('/:sport', {
+      templateUrl: 'partials/escolha.html',
+      controller: 'PickerController'
     }).
     otherwise({
       redirectTo: '/'

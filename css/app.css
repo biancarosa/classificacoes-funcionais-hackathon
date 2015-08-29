@@ -1,3 +1,7 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
 footer {
 	height: 100px;
 	background-color: #a3c614;
@@ -12,6 +16,7 @@ footer {
 	background-position: left;
 	background-color: #0086cd;
 	min-height: 138px;
+	margin-top: 50px;
 }
 
 #detail {
@@ -33,4 +38,52 @@ footer ul>li a {
 
 footer ul>li a:hover {
 	text-decoration: none;
+}
+
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.title {
+	margin-top: 20px;
+}
+
+
+.field {
+	background-color: #EDEAF6;
+}
+
+.field .image {
+	background-image: url('../img/bkg_foto2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+  	background-size: cover;
+	margin-bottom: 10px;
+}
+
+
+.track .image {
+	background-image: url('../img/bkg_foto.png');
+	background-repeat: no-repeat;
+	background-position: center;
+  	background-size: cover;
+	margin-bottom: 10px;
+}
+
+.track {
+	background-color: #FFFDED;
+}
+
+.card {
+	padding: 0;
+	margin-left: 10px;
+}
+
+.cards {
+	margin-top: 20px;
+}
+
+.image img {
+	padding: 5%;
 }

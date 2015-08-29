@@ -1,5 +1,129 @@
-<header id="detail">
+<header id="detail" class="col-sm-12">
 	<h1>{{sport}}</h1>
 	<h2>{{disability}}</h2>
 	<img ng-src="img/picto_{{routeSport}}.png"/>
 </header>
+
+<section class="cards col-sm-12">
+	<!--<article class="card track text-center col-sm-5">
+		<div class="image col-sm-12">
+			<img class="img-responsive center-block" src="http://i0.statig.com.br/bancodeimagens/85/sc/kq/85sckqul2d4tdfs211ek9nnnk.jpg" />
+		</div>
+
+		<div class="text-center col-sm-12 center-block">
+			Grau de comprometimento
+			<div class="col-sm-10 col-sm-offset-1 small" >
+				<img class="center-block img-responsive" src="img/escala_verde.png"/>
+				<p class="col-sm-5 text-left">
+					<strong>Maior</strong>
+				</p>
+				<p class="col-sm-5 text-right pull-right">
+					<strong>Menor</strong>
+				</p>
+			</div>
+		</div>
+
+		<div class="col-sm-10 text-left col-sm-offset-1">
+			<p>
+				ABBCDDDD
+			</p>
+		</div>
+	</article>
+
+	<article class="card field text-center col-sm-5">
+		<div class="image col-sm-12">
+			<img class="img-responsive center-block" src="http://i0.statig.com.br/bancodeimagens/85/sc/kq/85sckqul2d4tdfs211ek9nnnk.jpg" />
+		</div>
+
+		<div class="text-center col-sm-12 center-block">
+			Grau de comprometimento
+			<div class="col-sm-10 col-sm-offset-1 small" >
+				<img class="center-block img-responsive" src="img/escala_azul.png"/>
+				<p class="col-sm-5 text-left">
+					<strong>Maior</strong>
+				</p>
+				<p class="col-sm-5 text-right pull-right">
+					<strong>Menor</strong>
+				</p>
+			</div>
+		</div>
+
+		<div class="col-sm-10 text-left col-sm-offset-1">
+			<p>
+				ABBCDDDD
+			</p>
+		</div>
+	</article>-->
+
+	<article class="card track text-center col-sm-5">
+		<div class="image col-sm-12">
+			<img class="img-responsive center-block" src="img/atletismo_visual_campo.jpg" />
+		</div>
+
+		<div class="col-sm-12 text-center big">
+			<h3>
+				{{field.definicao}}
+			</h3>
+		</div>
+		<div class="text-center col-sm-12 center-block">
+			Grau de comprometimento
+			<div class="col-sm-10 col-sm-offset-1 small" >
+				<img class="center-block img-responsive" src="img/escala_verde.png"/>
+				<p class="col-sm-5 text-left">
+					<strong>Maior</strong>
+				</p>
+				<p class="col-sm-5 text-right pull-right">
+					<strong>Menor</strong>
+				</p>
+			</div>
+		</div>
+
+		<div class="col-sm-10 text-left col-sm-offset-1">
+			<p ng-repeat="l in field.legenda">
+				{{l}}
+			</p>
+		</div>
+
+		<div class="col-sm-12 text-center">
+			<h4>
+				{{field.provas.title}}
+			</h4>
+			<p ng-repeat="l in field.provas.lista">
+				{{l}}
+			</p>
+		</div>
+
+
+		<div class="col-sm-12 text-right">
+			<small ng-repeat="tag in field.tags">
+				{{tag}}
+			</small>
+		</div>
+
+	</article>
+
+	<article class="card field text-center col-sm-5">
+		<div class="image col-sm-12">
+			<img class="img-responsive center-block" src="img/atletismo_visual_pista.jpg" />
+		</div>
+
+		<div class="text-center col-sm-12 center-block">
+			Grau de comprometimento
+			<div class="col-sm-10 col-sm-offset-1 small" >
+				<img class="center-block img-responsive" src="img/escala_azul.png"/>
+				<p class="col-sm-5 text-left">
+					<strong>Maior</strong>
+				</p>
+				<p class="col-sm-5 text-right pull-right">
+					<strong>Menor</strong>
+				</p>
+			</div>
+		</div>
+
+		<div class="col-sm-10 text-left col-sm-offset-1">
+			<p>
+				ABBCDDDD
+			</p>
+		</div>
+	</article>
+</section>
