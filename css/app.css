@@ -1,0 +1,36 @@
+footer {
+	height: 100px;
+	background-color: #a3c614;
+	color: #546707;
+	padding: 40px;
+}
+
+#main {
+	text-align: center;
+	background-image: url('../img/header.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-color: #0086cd;
+	min-height: 138px;
+}
+
+#detail {
+	text-align: center;
+}
+
+.icon {
+	width: 20px;
+}
+
+footer ul>li {
+	display: inline-block;
+}
+
+footer ul>li a {
+	text-decoration: none;
+	color: #546707;
+}
+
+footer ul>li a:hover {
+	text-decoration: none;
+}

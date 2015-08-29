@@ -7,7 +7,7 @@
 		<title>Classifica&ccedil;&otilde;es funcionais</title>
 
 
-		<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.min.js"></script>
@@ -19,10 +19,10 @@
 	<body>
 		<header ng-include="'partials/header.html'">
 		</header>
-		<section ng-view>
+		<section class="container main" ng-view>
       	</section>
-		<header ng-include="'partials/footer.html'">
-		</header>
+		<footer ng-include="'partials/footer.html'">
+		</footer>
 	</body>
 
 </html>
