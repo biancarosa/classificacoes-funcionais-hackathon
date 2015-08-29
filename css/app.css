@@ -78,6 +78,7 @@ footer ul>li a:hover {
 .card {
 	padding: 0;
 	margin-left: 10px;
+	height: 950px;
 }
 
 .cards {
@@ -86,4 +87,6 @@ footer ul>li a:hover {
 
 .image img {
 	padding: 5%;
+	height: 300px;
+  	width: 450px;
 }
